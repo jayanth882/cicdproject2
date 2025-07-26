@@ -1,0 +1,14 @@
+{
+  "name": "cicdproject2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://your-jayanthdasari2004@gmail.com.github.io/hello-cicdproject2-vite-app/",
+"scripts": {
+  "lint": "eslint .",
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
